@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCAxis.Query", "PCAxis.Query\PCAxis.Query.csproj", "{2E6A04A7-1017-49F4-92F4-EA8EC4E721FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCAxis.Query.UnitTest", "PCAxis.Query.UnitTest\PCAxis.Query.UnitTest.csproj", "{FB842E3B-AA95-4F9E-8533-F49F6E78CAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6A04A7-1017-49F4-92F4-EA8EC4E721FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6A04A7-1017-49F4-92F4-EA8EC4E721FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6A04A7-1017-49F4-92F4-EA8EC4E721FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6A04A7-1017-49F4-92F4-EA8EC4E721FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB842E3B-AA95-4F9E-8533-F49F6E78CAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB842E3B-AA95-4F9E-8533-F49F6E78CAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB842E3B-AA95-4F9E-8533-F49F6E78CAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB842E3B-AA95-4F9E-8533-F49F6E78CAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {677011C1-2B63-4178-82A7-F332814CF4EB}
+	EndGlobalSection
+EndGlobal
