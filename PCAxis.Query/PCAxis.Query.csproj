@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0-beta</Version>
+    <Description>PX Query library for the PX platform</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/statisticssweden/PCAxis.Query</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/statisticssweden/PCAxis.Query.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>PX</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +18,13 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="PCAxis.Common" Version="1.0.0-beta4" />
     <PackageReference Include="PCAxis.Core" Version="1.0.0-beta4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
