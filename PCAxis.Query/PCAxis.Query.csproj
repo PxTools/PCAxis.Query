@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>1.0.0-beta</Version>
     <Description>PX Query library for the PX platform</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/statisticssweden/PCAxis.Query.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>PX</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
