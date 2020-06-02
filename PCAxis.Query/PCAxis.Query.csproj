@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>1.0.0-beta</Version>
+    <Version>1.0.0-beta2</Version>
     <Description>PX Query library for the PX platform</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/statisticssweden/PCAxis.Query</PackageProjectUrl>
@@ -16,9 +16,13 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="PCAxis.Common" Version="1.0.0-beta4" />
-    <PackageReference Include="PCAxis.Core" Version="1.0.0-beta4" />
+    <PackageReference Include="PCAxis.Common" Version="1.0.0-beta5" />
+    <PackageReference Include="PCAxis.Core" Version="1.0.0-beta5" />
   </ItemGroup>
 
   <ItemGroup>
