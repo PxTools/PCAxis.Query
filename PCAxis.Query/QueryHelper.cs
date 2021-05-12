@@ -11,6 +11,8 @@ namespace PCAxis.Query
     /// </summary>
     public class QueryHelper
     {
+        private static log4net.ILog _logger = log4net.LogManager.GetLogger(typeof(QueryHelper));
+
         /// <summary>
         /// Checks if the filter describes an aggregation
         /// </summary>
@@ -302,6 +304,7 @@ namespace PCAxis.Query
             if (s.ValueCodes.Count != query.Selection.Values.Length)
             {
                 //Error missmatch between the number of values
+                _logger.InfoFormat("User requests some values that does not exist for variable {0}. Found {1} matching values of the {2} requested. Returning null.", variable.Code, s.ValueCodes.Count, query.Selection.Values.Length);
                 return null;
             }
 
