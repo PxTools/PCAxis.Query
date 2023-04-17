@@ -72,9 +72,6 @@ namespace PCAxis.Query
         [JsonProperty("key")]
         public List<string> Key { get; set; }
 
-        [JsonProperty("text")]
-        public List<string> Text { get; set; }
-
         [JsonProperty("values")]
         public List<string> Values { get; set; }
 
