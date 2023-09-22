@@ -369,6 +369,12 @@ namespace PCAxis.Query
                     case SavedQueryOutputFormatType.csv_tabhead:
                         formatString = "FileTypeCsvWithHeadingAndTabulator";
                         break;
+                    case SavedQueryOutputFormatType.csv2:
+                        formatString = "FileTypeCsv2";
+                        break;
+                    case SavedQueryOutputFormatType.csv3:
+                        formatString = "FileTypeCsv3";
+                        break;
                     case SavedQueryOutputFormatType.xlsx:
                         formatString = "FileTypeExcelX";
                         break;

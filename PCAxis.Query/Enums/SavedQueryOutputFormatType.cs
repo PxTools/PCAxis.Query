@@ -60,6 +60,14 @@ namespace PCAxis.Query
         /// </summary>
         csv_semicolonhead,
         /// <summary>
+        /// Get result as csv-file in Csv2 format
+        /// </summary>
+        csv2,
+        /// <summary>
+        /// Get result as csv-file in Csv3 format
+        /// </summary>
+        csv3,
+        /// <summary>
         /// Get result as json-stat-file
         /// </summary>
         json_stat,
