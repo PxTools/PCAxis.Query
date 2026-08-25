@@ -9,7 +9,8 @@ permissions:
 
 jobs:
   release:
-
+    permissions:
+      id-token: write
     runs-on: windows-latest
 
     steps:
